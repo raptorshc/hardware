@@ -21,60 +21,60 @@ Wire Notes Line
 $Comp
 L RAPTOR-rescue:AdafruitGPS-adafruitgps U4
 U 1 1 5BDE25E6
-P 1500 2400
-F 0 "U4" H 1500 2925 50  0000 C CNN
-F 1 "AdafruitGPS" H 1500 2834 50  0000 C CNN
-F 2 "RAPTOR_footprints:AdafruitGPS" H 1600 2350 50  0001 C CNN
-F 3 "https://learn.adafruit.com/adafruit-ultimate-gps" H 1600 2350 50  0001 C CNN
-	1    1500 2400
+P 7600 5800
+F 0 "U4" H 7600 6325 50  0000 C CNN
+F 1 "AdafruitGPS" H 7600 6234 50  0000 C CNN
+F 2 "RAPTOR_footprints:AdafruitGPS" H 7700 5750 50  0001 C CNN
+F 3 "https://learn.adafruit.com/adafruit-ultimate-gps" H 7700 5750 50  0001 C CNN
+	1    7600 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5BDE7CE6
-P 600 2850
-F 0 "#PWR0106" H 600 2600 50  0001 C CNN
-F 1 "GND" H 605 2677 50  0000 C CNN
-F 2 "" H 600 2850 50  0001 C CNN
-F 3 "" H 600 2850 50  0001 C CNN
-	1    600  2850
+P 6700 6250
+F 0 "#PWR0106" H 6700 6000 50  0001 C CNN
+F 1 "GND" H 6705 6077 50  0000 C CNN
+F 2 "" H 6700 6250 50  0001 C CNN
+F 3 "" H 6700 6250 50  0001 C CNN
+	1    6700 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  2750 600  2750
+	6900 6150 6700 6150
 Wire Wire Line
-	600  2750 600  2850
+	6700 6150 6700 6250
 $Comp
 L power:+5V #PWR0107
 U 1 1 5BDE90FA
-P 600 2050
-F 0 "#PWR0107" H 600 1900 50  0001 C CNN
-F 1 "+5V" H 615 2223 50  0000 C CNN
-F 2 "" H 600 2050 50  0001 C CNN
-F 3 "" H 600 2050 50  0001 C CNN
-	1    600  2050
+P 6700 5450
+F 0 "#PWR0107" H 6700 5300 50  0001 C CNN
+F 1 "+5V" H 6715 5623 50  0000 C CNN
+F 2 "" H 6700 5450 50  0001 C CNN
+F 3 "" H 6700 5450 50  0001 C CNN
+	1    6700 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	600  2050 600  2150
+	6700 5450 6700 5550
 Wire Wire Line
-	600  2150 800  2150
-Text Label 2550 2250 0    50   ~ 0
+	6700 5550 6900 5550
+Text Label 8650 5650 0    50   ~ 0
 GPS_TX
 Wire Wire Line
-	2200 2250 2550 2250
-Text Label 2550 2400 0    50   ~ 0
+	8300 5650 8650 5650
+Text Label 8650 5800 0    50   ~ 0
 GPS_RX
 Wire Wire Line
-	2200 2400 2550 2400
-Text Label 2550 2700 0    50   ~ 0
+	8300 5800 8650 5800
+Text Label 8650 6100 0    50   ~ 0
 FIX_LED
 Wire Wire Line
-	2200 2700 2550 2700
-NoConn ~ 800  2250
-NoConn ~ 800  2400
-NoConn ~ 2200 2550
-NoConn ~ 2200 2100
+	8300 6100 8650 6100
+NoConn ~ 6900 5650
+NoConn ~ 6900 5800
+NoConn ~ 8300 5950
+NoConn ~ 8300 5500
 Text Label 6000 1300 0    50   ~ 0
 SRVO
 Wire Wire Line
@@ -256,42 +256,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 1900 4100 2100
 $Comp
-L power:+5V #PWR021
-U 1 1 5C539DC6
-P 7150 1200
-F 0 "#PWR021" H 7150 1050 50  0001 C CNN
-F 1 "+5V" H 7165 1373 50  0000 C CNN
-F 2 "" H 7150 1200 50  0001 C CNN
-F 3 "" H 7150 1200 50  0001 C CNN
-	1    7150 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5C539DCC
-P 7150 2350
-F 0 "#PWR022" H 7150 2100 50  0001 C CNN
-F 1 "GND" H 7155 2177 50  0000 C CNN
-F 2 "" H 7150 2350 50  0001 C CNN
-F 3 "" H 7150 2350 50  0001 C CNN
-	1    7150 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L RAPTOR-rescue:4.7KOHM-0603-1_10W-1%-SparkFun-Resistors R5
-U 1 1 5C539DD3
-P 7150 2050
-F 0 "R5" V 7055 2118 45  0000 L CNN
-F 1 "4.7KOHM-0603-1_10W-1%" V 7139 2118 45  0000 L CNN
-F 2 "RAPTOR_footprints:Resistor" H 7150 2200 20  0001 C CNN
-F 3 "" H 7150 2050 60  0001 C CNN
-F 4 "RES-07857" V 7234 2118 60  0000 L CNN "Field4"
-	1    7150 2050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7150 2250 7150 2350
-$Comp
 L RAPTOR-rescue:CONN_03-SparkFun-Connectors J11
 U 1 1 5C6B1587
 P 5500 1300
@@ -309,22 +273,9 @@ Connection ~ 3700 5000
 Wire Wire Line
 	3700 5000 4050 5000
 Wire Wire Line
-	3000 4850 3000 5000
-Wire Wire Line
-	3000 5000 3350 5000
-Connection ~ 3350 5000
-Wire Wire Line
-	3000 4550 3000 4400
-Wire Wire Line
-	3000 4400 3350 4400
-Wire Wire Line
 	3550 4400 3550 4350
-Connection ~ 3350 4400
-Wire Wire Line
-	3350 4400 3550 4400
 Wire Wire Line
 	3700 4400 3550 4400
-Connection ~ 3550 4400
 Wire Wire Line
 	4050 4550 4050 4400
 Wire Wire Line
@@ -379,30 +330,6 @@ F 4 "XXX-00000" V 3840 4828 60  0001 L CNN "Field4"
 	1    3800 4650
 	-1   0    0    1   
 $EndComp
-$Comp
-L RAPTOR-rescue:CONN_02-SparkFun-Connectors J8
-U 1 1 5C557DC0
-P 3250 4750
-F 0 "J8" V 3111 4928 45  0000 L CNN
-F 1 "EXT_LED1" V 3195 4928 45  0000 L CNN
-F 2 "RAPTOR_footprints:Molex-2pin" H 3250 5000 20  0001 C CNN
-F 3 "" H 3250 4750 50  0001 C CNN
-F 4 "XXX-00000" V 3290 4928 60  0001 L CNN "Field4"
-	1    3250 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L RAPTOR-rescue:CONN_02-SparkFun-Connectors J7
-U 1 1 5C5688B4
-P 2850 4750
-F 0 "J7" V 2711 4928 45  0000 L CNN
-F 1 "EXT_LED0" V 2795 4928 45  0000 L CNN
-F 2 "RAPTOR_footprints:Molex-2pin" H 2850 5000 20  0001 C CNN
-F 3 "" H 2850 4750 50  0001 C CNN
-F 4 "XXX-00000" V 2890 4928 60  0001 L CNN "Field4"
-	1    2850 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 4550 4100 4550
 Wire Wire Line
@@ -412,44 +339,15 @@ Wire Wire Line
 Wire Wire Line
 	4100 4850 4100 4750
 Wire Wire Line
-	3000 4550 2950 4550
-Wire Wire Line
-	2950 4550 2950 4650
-Wire Wire Line
-	3000 4850 2950 4850
-Wire Wire Line
-	2950 4850 2950 4750
-Wire Wire Line
 	3700 4400 3700 4650
-Wire Wire Line
-	3350 4400 3350 4650
-Wire Wire Line
-	3350 4750 3350 5000
 Wire Wire Line
 	3700 4750 3700 5000
 Wire Wire Line
-	3350 5000 3550 5000
-Wire Wire Line
 	3550 5000 3550 5250
-Connection ~ 3550 5000
 Wire Wire Line
 	3550 5000 3700 5000
 Wire Wire Line
 	3550 5650 3550 5850
-$Comp
-L RAPTOR-rescue:CONN_02-SparkFun-Connectors J15
-U 1 1 5C767459
-P 7250 1500
-F 0 "J15" H 7022 1455 45  0000 R CNN
-F 1 "EEPROM_BTN_CONN" H 7022 1539 45  0000 R CNN
-F 2 "RAPTOR_footprints:Molex-2pin" H 7250 1750 20  0001 C CNN
-F 3 "" H 7250 1500 50  0001 C CNN
-F 4 "XXX-00000" H 7022 1634 60  0001 R CNN "Field4"
-	1    7250 1500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7150 1200 7150 1500
 NoConn ~ 4550 1850
 Wire Wire Line
 	4350 1850 4350 1900
@@ -523,57 +421,50 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 9550 800 50 
 	1    9550 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 1800 7150 1850
-Connection ~ 7150 1800
-Wire Wire Line
-	6800 1800 7150 1800
-Text Label 6800 1800 0    50   ~ 0
-EEPROM_BTN
 $Comp
 L RAPTOR-rescue:microsd U?
 U 1 1 5D34E005
-P 1500 1100
-F 0 "U?" H 1500 1625 50  0000 C CNN
-F 1 "microsd" H 1500 1534 50  0000 C CNN
-F 2 "" H 1500 1500 50  0001 C CNN
-F 3 "" H 1500 1500 50  0001 C CNN
-	1    1500 1100
+P 2000 3150
+F 0 "U?" H 2000 3675 50  0000 C CNN
+F 1 "microsd" H 2000 3584 50  0000 C CNN
+F 2 "" H 2000 3550 50  0001 C CNN
+F 3 "" H 2000 3550 50  0001 C CNN
+	1    2000 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	600  850  800  850 
+	1100 2900 1300 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5D361F5D
-P 600 1550
-F 0 "#PWR?" H 600 1300 50  0001 C CNN
-F 1 "GND" H 605 1377 50  0000 C CNN
-F 2 "" H 600 1550 50  0001 C CNN
-F 3 "" H 600 1550 50  0001 C CNN
-	1    600  1550
+P 1100 3600
+F 0 "#PWR?" H 1100 3350 50  0001 C CNN
+F 1 "GND" H 1105 3427 50  0000 C CNN
+F 2 "" H 1100 3600 50  0001 C CNN
+F 3 "" H 1100 3600 50  0001 C CNN
+	1    1100 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  1450 600  1450
+	1300 3500 1100 3500
 Wire Wire Line
-	600  1450 600  1550
-Text Label 2500 1400 0    50   ~ 0
+	1100 3500 1100 3600
+Text Label 3000 3450 0    50   ~ 0
 SCK
-Text Label 2500 1250 0    50   ~ 0
+Text Label 3000 3300 0    50   ~ 0
 MISO
-Text Label 2500 1100 0    50   ~ 0
+Text Label 3000 3150 0    50   ~ 0
 MOSI
-Text Label 2500 950  0    50   ~ 0
+Text Label 3000 3000 0    50   ~ 0
 SS
 Wire Wire Line
-	2200 950  2500 950 
+	2700 3000 3000 3000
 Wire Wire Line
-	2200 1100 2500 1100
+	2700 3150 3000 3150
 Wire Wire Line
-	2200 1250 2500 1250
+	2700 3300 3000 3300
 Wire Wire Line
-	2200 1400 2500 1400
+	2700 3450 3000 3450
 Text Label 8750 2500 0    50   ~ 0
 SCK
 Text Label 8750 2400 0    50   ~ 0
@@ -598,25 +489,21 @@ Wire Wire Line
 	8750 1400 9050 1400
 Wire Wire Line
 	8750 1500 9050 1500
-Wire Wire Line
-	7150 1750 7150 1800
-Wire Wire Line
-	7150 1600 7150 1800
 Text Label 8750 1700 0    50   ~ 0
 SRVO
 Wire Wire Line
 	8750 1700 9050 1700
 Wire Wire Line
-	600  750  600  850 
+	1100 2800 1100 2900
 $Comp
 L power:+5V #PWR?
 U 1 1 5D3604B5
-P 600 750
-F 0 "#PWR?" H 600 600 50  0001 C CNN
-F 1 "+5V" H 615 923 50  0000 C CNN
-F 2 "" H 600 750 50  0001 C CNN
-F 3 "" H 600 750 50  0001 C CNN
-	1    600  750 
+P 1100 2800
+F 0 "#PWR?" H 1100 2650 50  0001 C CNN
+F 1 "+5V" H 1115 2973 50  0000 C CNN
+F 2 "" H 1100 2800 50  0001 C CNN
+F 3 "" H 1100 2800 50  0001 C CNN
+	1    1100 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
