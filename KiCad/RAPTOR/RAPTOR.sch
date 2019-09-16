@@ -220,8 +220,6 @@ NoConn ~ 850  2150
 NoConn ~ 850  1000
 NoConn ~ 1950 800 
 NoConn ~ 1950 1300
-Text Label 5650 1750 0    50   ~ 0
-SRVO_R
 Wire Wire Line
 	5250 1750 5650 1750
 $Comp
@@ -243,8 +241,6 @@ Wire Wire Line
 	5250 1650 5550 1650
 Wire Wire Line
 	5550 1650 5550 1500
-Text Label 5650 1100 0    50   ~ 0
-SRVO_L
 Wire Wire Line
 	5250 1100 5650 1100
 $Comp
@@ -734,77 +730,6 @@ F 3 "" H 1600 5700 60  0001 C CNN
 F 4 "RES-07862" V 1684 5768 60  0000 L CNN "Field4"
 	1    1600 5700
 	0    1    1    0   
-$EndComp
-$Comp
-L RAPTOR-rescue:MOSFET-NCH-2N7002PW-SparkFun-DiscreteSemi Q5
-U 1 1 5C45C6C5
-P 6450 1400
-F 0 "Q5" H 6615 1495 45  0000 L CNN
-F 1 "MOSFET-NCH-STQ2NK60ZR-AP" H 6615 1411 45  0000 L CNN
-F 2 "RAPTOR_footprints:MOSFET" H 6450 1700 20  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds11303.pdf" H 6450 1400 50  0001 C CNN
-F 4 "TRANS-11151" H 6615 1316 60  0000 L CNN "Field4"
-	1    6450 1400
-	1    0    0    -1  
-$EndComp
-Text Label 5950 1500 0    50   ~ 0
-HOTWIRE
-Wire Wire Line
-	6250 1500 5950 1500
-$Comp
-L power:GND #PWR028
-U 1 1 5C45C6CF
-P 6550 2100
-F 0 "#PWR028" H 6550 1850 50  0001 C CNN
-F 1 "GND" H 6555 1927 50  0000 C CNN
-F 2 "" H 6550 2100 50  0001 C CNN
-F 3 "" H 6550 2100 50  0001 C CNN
-	1    6550 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L RAPTOR-rescue:CONN_02-SparkFun-Connectors J13
-U 1 1 5C45C6DE
-P 6650 950
-F 0 "J13" H 6422 905 45  0000 R CNN
-F 1 "HOTWIRE_CONN" H 6422 989 45  0000 R CNN
-F 2 "RAPTOR_footprints:Molex-2pin" H 6650 1200 20  0001 C CNN
-F 3 "" H 6650 950 50  0001 C CNN
-F 4 "XXX-00000" H 6422 1084 60  0001 R CNN "Field4"
-	1    6650 950 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6550 1200 6550 1050
-$Comp
-L RAPTOR-rescue:4.7KOHM-0603-1_10W-1%-SparkFun-Resistors R8
-U 1 1 5C476CBF
-P 6550 1850
-F 0 "R8" V 6455 1918 45  0000 L CNN
-F 1 "4.7KOHM-0603-1_10W-1%" V 6539 1918 45  0000 L CNN
-F 2 "RAPTOR_footprints:Resistor" H 6550 2000 20  0001 C CNN
-F 3 "" H 6550 1850 60  0001 C CNN
-F 4 "RES-07857" V 6634 1918 60  0000 L CNN "Field4"
-	1    6550 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6550 1600 6550 1650
-Wire Wire Line
-	6550 2050 6550 2100
-Wire Wire Line
-	6550 700  6550 950 
-$Comp
-L power:+7.5V #PWR027
-U 1 1 5C4B44D8
-P 6550 700
-F 0 "#PWR027" H 6550 550 50  0001 C CNN
-F 1 "+7.5V" H 6565 873 50  0001 C CNN
-F 2 "" H 6550 700 50  0001 C CNN
-F 3 "" H 6550 700 50  0001 C CNN
-F 4 "+7.4V" H 6565 873 50  0000 C CNN "Real Value"
-	1    6550 700 
-	1    0    0    -1  
 $EndComp
 $Comp
 L RAPTOR-rescue:CONN_02-SparkFun-Connectors J10
