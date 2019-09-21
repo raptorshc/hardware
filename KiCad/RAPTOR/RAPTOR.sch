@@ -6,6 +6,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "RAPTOR Schematic"
+<<<<<<< HEAD
 Date "2019-09-21"
 Rev "HAWK 0.1"
 Comp ""
@@ -13,6 +14,15 @@ Comment1 ""
 Comment2 "https://github.com/raptorshc/hardware"
 Comment3 ""
 Comment4 ""
+=======
+Date "2019-02-28"
+Rev "PHOENIX 0.7"
+Comp ""
+Comment1 ""
+Comment2 "https://github.com/seaan/RAPTOR/projects/3"
+Comment3 "todo:"
+Comment4 "Arduino (HiLetGo UNO R3) Shield"
+>>>>>>> 1f4c2fdc446a242119d06dbd042a53b1f4237137
 $EndDescr
 $Comp
 L RAPTOR-rescue:BMP280-bmp280 U1
