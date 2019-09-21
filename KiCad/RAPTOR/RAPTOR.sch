@@ -6,15 +6,6 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "RAPTOR Schematic"
-<<<<<<< HEAD
-Date "2019-09-21"
-Rev "HAWK 0.1"
-Comp ""
-Comment1 ""
-Comment2 "https://github.com/raptorshc/hardware"
-Comment3 ""
-Comment4 ""
-=======
 Date "2019-02-28"
 Rev "PHOENIX 0.7"
 Comp ""
@@ -22,7 +13,6 @@ Comment1 ""
 Comment2 "https://github.com/seaan/RAPTOR/projects/3"
 Comment3 "todo:"
 Comment4 "Arduino (HiLetGo UNO R3) Shield"
->>>>>>> 1f4c2fdc446a242119d06dbd042a53b1f4237137
 $EndDescr
 $Comp
 L RAPTOR-rescue:BMP280-bmp280 U1
@@ -930,12 +920,12 @@ Wire Wire Line
 Wire Wire Line
 	2800 3500 2650 3500
 $Comp
-L RAPTOR-rescue:Teensy3.2-teensy U?
+L RAPTOR-rescue:Teensy3.2-teensy U5
 U 1 1 5D836A4E
 P 9200 2150
-F 0 "U?" H 9200 3771 39  0000 C CNN
+F 0 "U5" H 9200 3771 39  0000 C CNN
 F 1 "Teensy3.2" H 9200 3680 60  0000 C CNN
-F 2 "" H 9200 1400 60  0000 C CNN
+F 2 "Teensy_Footprints:Teensy30_31_32_LC" H 9200 1400 60  0001 C CNN
 F 3 "" H 9200 1400 60  0000 C CNN
 	1    9200 2150
 	1    0    0    -1  
@@ -1001,10 +991,10 @@ EEP_BTN
 Wire Notes Line
 	7800 3900 10600 3900
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR02
 U 1 1 5DA42CD3
 P 10350 3100
-F 0 "#PWR?" H 10350 2950 50  0001 C CNN
+F 0 "#PWR02" H 10350 2950 50  0001 C CNN
 F 1 "+5V" V 10300 3000 50  0000 C CNN
 F 2 "" H 10350 3100 50  0001 C CNN
 F 3 "" H 10350 3100 50  0001 C CNN
@@ -1014,10 +1004,10 @@ $EndComp
 Wire Wire Line
 	10200 3100 10350 3100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5DA51CA0
 P 7950 700
-F 0 "#PWR?" H 7950 450 50  0001 C CNN
+F 0 "#PWR01" H 7950 450 50  0001 C CNN
 F 1 "GND" V 7900 750 50  0000 C CNN
 F 2 "" H 7950 700 50  0001 C CNN
 F 3 "" H 7950 700 50  0001 C CNN
@@ -1040,7 +1030,6 @@ F 4 "+7.4V" H 5800 4057 50  0000 C CNN "Real Value"
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 8450 5400
 Wire Wire Line
 	8450 5400 8450 5450
 Wire Wire Line

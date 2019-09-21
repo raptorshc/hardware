@@ -8,9 +8,6 @@ F0 "JP" 0 150 50 H V C CNN
 F1 "Device_Jumper" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*
-$ENDFPLIST
 DRAW
 A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
 C -100 0 35 0 1 0 N
@@ -277,7 +274,7 @@ ENDDEF
 #
 # RAPTOR-rescue_JST_2MM_MALE-SparkFun-Connectors
 #
-DEF RAPTOR-rescue_JST_2MM_MALE-SparkFun-Connectors J 0 40 N N 1 L N
+DEF ~RAPTOR-rescue_JST_2MM_MALE-SparkFun-Connectors J 0 40 N N 1 L N
 F0 "J" -150 250 45 H V L BNN
 F1 "RAPTOR-rescue_JST_2MM_MALE-SparkFun-Connectors" 100 -200 45 H I L BNN
 F2 "JST-2-SMD" 0 350 20 H I C CNN
