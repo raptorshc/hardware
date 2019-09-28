@@ -1176,58 +1176,58 @@ Wire Wire Line
 	10200 2800 10450 2800
 Wire Wire Line
 	10200 2700 10450 2700
-Text Label 4800 6700 3    50   ~ 0
+Text Label 4150 7350 0    50   ~ 0
 PIN_2
-Text Label 4700 6700 3    50   ~ 0
-PIN_3
-Text Label 4600 6700 3    50   ~ 0
+Text Label 4150 7450 0    50   ~ 0
+PIN_11
+Text Label 4150 7550 0    50   ~ 0
 PIN_4
-Text Label 4500 6700 3    50   ~ 0
-PIN_5
-Text Label 4300 6700 3    50   ~ 0
+Text Label 4150 7650 0    50   ~ 0
 PIN_7
-Text Label 4400 6700 3    50   ~ 0
+Text Label 4150 7850 0    50   ~ 0
+PIN_5
+Text Label 4150 7750 0    50   ~ 0
 PIN_6
 Wire Wire Line
-	4300 7050 4300 6700
+	4500 7850 4150 7850
 Wire Wire Line
-	4400 7050 4400 6700
+	4500 7750 4150 7750
 Wire Wire Line
-	4500 7050 4500 6700
+	4500 7650 4150 7650
 Wire Wire Line
-	4600 7050 4600 6700
+	4500 7550 4150 7550
 Wire Wire Line
-	4700 7050 4700 6700
+	4500 7450 4150 7450
 Wire Wire Line
-	4800 7050 4800 6700
-Text Label 4200 6700 3    50   ~ 0
+	4500 7350 4150 7350
+Text Label 4150 7950 0    50   ~ 0
 PIN_10
-Text Label 4200 7900 1    50   ~ 0
-PIN_11
-Text Label 4300 7900 1    50   ~ 0
+Text Label 5350 7950 2    50   ~ 0
+PIN_3
+Text Label 5350 7850 2    50   ~ 0
 PIN_12
-Text Label 4400 7900 1    50   ~ 0
-PIN_15
-Wire Wire Line
-	4400 7550 4400 7900
-Wire Wire Line
-	4300 7550 4300 7900
-Wire Wire Line
-	4200 7550 4200 7900
-Wire Wire Line
-	4200 7050 4200 6700
-Text Label 4600 7900 1    50   ~ 0
+Text Label 5350 7750 2    50   ~ 0
 PIN_A14
-Text Label 4500 7900 1    50   ~ 0
+Wire Wire Line
+	5000 7750 5350 7750
+Wire Wire Line
+	5000 7850 5350 7850
+Wire Wire Line
+	5000 7950 5350 7950
+Wire Wire Line
+	4500 7950 4150 7950
+Text Label 5350 7550 2    50   ~ 0
+PIN_15
+Text Label 5350 7650 2    50   ~ 0
 PIN_A11
-Text Label 4800 7900 1    50   ~ 0
+Text Label 5350 7350 2    50   ~ 0
 PIN_A10
 Wire Wire Line
-	4800 7550 4800 7900
+	5000 7350 5350 7350
 Wire Wire Line
-	4500 7550 4500 7900
+	5000 7650 5350 7650
 Wire Wire Line
-	4600 7550 4600 7900
+	5000 7550 5350 7550
 NoConn ~ 10200 1100
 NoConn ~ 10200 1300
 NoConn ~ 10200 1400
@@ -1240,20 +1240,20 @@ NoConn ~ 10200 2000
 NoConn ~ 10200 2100
 NoConn ~ 10200 2200
 NoConn ~ 10200 2400
-Text Label 4700 7900 1    50   ~ 0
+Text Label 5350 7450 2    50   ~ 0
 PIN_23
 Wire Wire Line
-	4700 7550 4700 7900
+	5000 7450 5350 7450
 $Comp
 L Connector_Generic:Conn_02x07_Counter_Clockwise J5
 U 1 1 5DB43AA0
-P 4500 7250
-F 0 "J5" V 4504 7630 50  0000 L CNN
-F 1 "EXTENSION_HEADER" V 4595 7630 50  0000 L CNN
-F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical" H 4500 7250 50  0001 C CNN
-F 3 "~" H 4500 7250 50  0001 C CNN
-	1    4500 7250
-	0    1    1    0   
+P 4700 7650
+F 0 "J5" V 4704 8030 50  0000 L CNN
+F 1 "EXTENSION_HEADER" V 4795 8030 50  0000 L CNN
+F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical" H 4700 7650 50  0001 C CNN
+F 3 "~" H 4700 7650 50  0001 C CNN
+	1    4700 7650
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 1550 4600 1650
