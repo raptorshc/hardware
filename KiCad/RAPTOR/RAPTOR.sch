@@ -1008,13 +1008,13 @@ Wire Notes Line rgb(255, 255, 0)
 	6150 550  6150 2200
 Text Notes 7350 2200 0    50   ~ 0
 SERVOS
-Wire Notes Line rgb(0, 255, 255)
+Wire Notes Line rgb(0, 255, 0)
 	3600 3500 3600 6450
-Wire Notes Line rgb(0, 255, 255)
+Wire Notes Line rgb(0, 255, 0)
 	3600 6450 6100 6450
-Wire Notes Line rgb(0, 255, 255)
+Wire Notes Line rgb(0, 255, 0)
 	6100 6450 6100 3500
-Wire Notes Line rgb(0, 255, 255)
+Wire Notes Line rgb(0, 255, 0)
 	6100 3500 3600 3500
 Text Notes 5700 6450 0    50   ~ 0
 SOLENOIDS
@@ -1042,13 +1042,13 @@ Wire Notes Line rgb(255, 0, 0)
 	5600 700  3650 700 
 Text Notes 5350 3400 0    50   ~ 0
 POWER
-Wire Notes Line rgb(255, 0, 255)
+Wire Notes Line rgb(255, 0, 0)
 	6800 4050 6800 6500
-Wire Notes Line rgb(255, 0, 255)
+Wire Notes Line rgb(255, 0, 0)
 	6800 6500 10400 6500
-Wire Notes Line rgb(255, 0, 255)
+Wire Notes Line rgb(255, 0, 0)
 	10400 6500 10400 4050
-Wire Notes Line rgb(255, 0, 255)
+Wire Notes Line rgb(255, 0, 0)
 	10400 4050 6800 4050
 Text Notes 10200 6500 0    50   ~ 0
 MISC
@@ -1218,14 +1218,14 @@ Wire Wire Line
 	4200 7050 4200 6700
 Text Label 4600 7900 1    50   ~ 0
 PIN_A14
-Text Label 4700 7900 1    50   ~ 0
+Text Label 4500 7900 1    50   ~ 0
 PIN_A11
 Text Label 4800 7900 1    50   ~ 0
 PIN_A10
 Wire Wire Line
 	4800 7550 4800 7900
 Wire Wire Line
-	4700 7550 4700 7900
+	4500 7550 4500 7900
 Wire Wire Line
 	4600 7550 4600 7900
 NoConn ~ 10200 1100
@@ -1240,10 +1240,10 @@ NoConn ~ 10200 2000
 NoConn ~ 10200 2100
 NoConn ~ 10200 2200
 NoConn ~ 10200 2400
-Text Label 4500 7900 1    50   ~ 0
+Text Label 4700 7900 1    50   ~ 0
 PIN_23
 Wire Wire Line
-	4500 7550 4500 7900
+	4700 7550 4700 7900
 $Comp
 L Connector_Generic:Conn_02x07_Counter_Clockwise J5
 U 1 1 5DB43AA0
