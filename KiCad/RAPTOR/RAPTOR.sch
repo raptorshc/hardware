@@ -5,14 +5,14 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "RAPTOR Schematic"
+Title "HAWK Schematic"
 Date "2019-02-28"
-Rev "PHOENIX 0.7"
-Comp ""
-Comment1 ""
-Comment2 "https://github.com/seaan/RAPTOR/projects/3"
-Comment3 "todo:"
-Comment4 "Arduino (HiLetGo UNO R3) Shield"
+Rev "HAWK 0.1"
+Comp "UAH Space Hardware Club"
+Comment1 "https://github.com/raptorshc"
+Comment2 ""
+Comment3 ""
+Comment4 ""
 $EndDescr
 $Comp
 L RAPTOR-rescue:BMP280-bmp280 U1
