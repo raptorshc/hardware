@@ -1197,8 +1197,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 7550 4150 7550
 Wire Wire Line
-	4500 7450 4150 7450
-Wire Wire Line
 	4500 7350 4150 7350
 Text Label 4150 7950 0    50   ~ 0
 PIN_10
@@ -1207,7 +1205,7 @@ PIN_3
 Text Label 5350 7850 2    50   ~ 0
 PIN_12
 Text Label 5350 7750 2    50   ~ 0
-PIN_A14
+PIN_A10
 Wire Wire Line
 	5000 7750 5350 7750
 Wire Wire Line
@@ -1221,7 +1219,7 @@ PIN_15
 Text Label 5350 7650 2    50   ~ 0
 PIN_A11
 Text Label 5350 7350 2    50   ~ 0
-PIN_A10
+PIN_A14
 Wire Wire Line
 	5000 7350 5350 7350
 Wire Wire Line
@@ -1262,4 +1260,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 1650 4600 1650
 Connection ~ 4600 1650
+Wire Wire Line
+	4500 7450 4150 7450
 $EndSCHEMATC
